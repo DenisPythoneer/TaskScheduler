@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App with FastAPI</title>
+    <link rel="stylesheet" href="http://localhost:8000/static/style.css">
+    <link rel="icon" href="static/image/icon.ico" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <h1>Планировщик Задач</h1>
+        
+        <div class="add-task">
+            <input type="text" id="taskInput" placeholder="Новая задача...">
+            <button onclick="addTask()">Добавить</button>
+        </div>
+        
+        <div class="filters">
+            <button onclick="getTasks('all')">Все</button>
+            <button onclick="getTasks('active')">Активные</button>
+            <button onclick="getTasks('completed')">Завершенные</button>
+        </div>
+        
+        <ul id="taskList"></ul>
+        
+        <div class="stats" id="stats"></div>
+    </div>
+
+    <button class="theme-toggle" title="Toggle dark mode">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="5"></circle>
+            <path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"></path>
+        </svg>
+    </button>
+    
+    <div class="GitHub">
+        <div class="line"></div>
+        <div class="nickname">https://github.com/DenisPythoneer</div>
+    </div>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>

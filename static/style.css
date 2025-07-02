@@ -344,7 +344,7 @@ body.dark-mode .empty-state {
     margin: 30px 0;
     text-align: center;
     font-family: Arial, sans-serif;
-    margin-top: auto; /* Автоматический отступ сверху (прижмет к низу) */
+    margin-top: auto;
     padding: 20px 0;
 }
 
@@ -368,7 +368,6 @@ body.dark-mode .empty-state {
     text-decoration: underline;
 }
 
-/* Для темной темы */
 body.dark-mode .GitHub .line {
     background: linear-gradient(90deg, transparent, #4cc9f0, transparent);
 }

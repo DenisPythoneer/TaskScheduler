@@ -140,17 +140,14 @@ function updateStats(tasks) {
     statsElement.textContent = `Всего: ${totalTasks} | Активные: ${activeTasks} | Завершенные: ${completedTasks}`;
 }
 
-  // Переключение темы
   const themeToggle = document.querySelector('.theme-toggle');
   const prefersDarkScheme = window.matchMedia('(prefers-color-scheme: dark)');
 
-  // Проверяем предпочтения пользователя и сохраненную тему
   const currentTheme = localStorage.getItem('theme');
   if (currentTheme === 'dark' || (!currentTheme && prefersDarkScheme.matches)) {
     document.body.classList.add('dark-mode');
   }
 
-  // Обработчик клика по кнопке
   themeToggle.addEventListener('click', () => {
     document.body.classList.toggle('dark-mode');
     const theme = document.body.classList.contains('dark-mode') ? 'dark' : 'light';

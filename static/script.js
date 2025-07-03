@@ -1,15 +1,15 @@
 document.addEventListener('DOMContentLoaded', function() {
     getTasks('all');
-}); // Срабатывает, когда браузер полностью загрузил HTML и построил DOM, без этого разные кнопки могут не появиться, если скрипт запустился раньше их создания.
+});
 
 
 async function getTasks(filter) {
     try {
-        const response = await fetch('/tasks'); // Отправляет GET-запрос на /tasks.
-        const tasks = await response.json(); // Преобразует ответ сервера (обычно в формате JSON) в JavaScript-объект/массив.
+        const response = await fetch('/tasks');
+        const tasks = await response.json();
         
-        renderTasks(tasks, filter); // Отрисовывает задачи в интерфейсе с учетом выбранного фильтра.
-        updateStats(tasks); // Обновляет счетчики задач (всего/активные/завершенные).
+        renderTasks(tasks, filter);
+        updateStats(tasks);
     } catch (error) {
         console.error('Error fetching tasks:', error);
     }
@@ -62,16 +62,16 @@ function renderTasks(tasks, filter = 'all') {
 
 async function addTask() {
     const taskInput = document.getElementById('taskInput');
-    const title = taskInput.value.trim(); // title - получает текст задачи, удаляя пробелы по краям (trim()).
+    const title = taskInput.value.trim();
     
     if (!title) {
         alert('Пожалуйста, введите задачу!');
         return;
-    } // Если поле пустое, показывает предупреждение и прекращает выполнение функции.
+    }
     
     try {
         const response = await fetch('/tasks', {
-            method: 'POST', // Отправляет POST-запрос на сервер по адресу /tasks.
+            method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
             },

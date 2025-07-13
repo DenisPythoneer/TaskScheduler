@@ -1,4 +1,4 @@
-### 🐍 ToDo List на FastAPI с SQLite и SQLAlchemy
+# 🐍 ToDo List на FastAPI с SQLite и SQLAlchemy
 
 ![Скриншот интерфейса ToDo List FastAPI](https://raw.githubusercontent.com/DenisPythoneer/ToDoList-FastAPI/main/image/screenshotOne.png)
 

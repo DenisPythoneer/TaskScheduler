@@ -102,8 +102,6 @@ Frontend:
 
     http://localhost:8000
 
-### 🔥 Спасибо за внимание!
-
 #
 
 ### 🔗 Ссылка на автора: https://t.me/denispythoneer

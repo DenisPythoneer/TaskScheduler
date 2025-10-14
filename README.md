@@ -1,6 +1,8 @@
 ![TaskScheduler](https://img.shields.io/badge/Version-2.0-blue)
 ![Python](https://img.shields.io/badge/Python-3.9+-green)
 ![FastAPI](https://img.shields.io/badge/FastAPI-0.100+-orange)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6%2B-yellow)
+![Database](https://img.shields.io/badge/Database-SQLite-blue)
 
 # 🐍 ToDo List на FastAPI с SQLite и SQLAlchemy
 

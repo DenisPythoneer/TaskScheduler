@@ -1,4 +1,4 @@
-![Task](https://img.shields.io/badge/Version-1.0-blue)
+![TaskScheduler](https://img.shields.io/badge/Version-1.0-blue)
 ![Python](https://img.shields.io/badge/Python-3.9+-green)
 ![FastAPI](https://img.shields.io/badge/FastAPI-0.100+-orange)
 

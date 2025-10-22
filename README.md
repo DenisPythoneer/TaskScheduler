@@ -6,7 +6,7 @@
 ![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-1.4%2B-orange)
 ![License](https://img.shields.io/badge/License-MIT-blue)
 
-# 🐍 ToDo List на FastAPI с SQLite и SQLAlchemy
+# 🐍 Планировщик задач на FastAPI с SQLite и SQLAlchemy
 
 ![Скриншот интерфейса ToDo List FastAPI](https://raw.githubusercontent.com/DenisPythoneer/ToDoList-FastAPI/main/image/screenshotOne.png)
 

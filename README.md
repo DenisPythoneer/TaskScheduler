@@ -80,7 +80,7 @@ Frontend:
 
     bash
 
-    git https://github.com/DenisPythoneer/ToDoList-FastAPI.git
+    git https://github.com/DenisPythoneer/TaskScheduler.git
     
     cd TaskManager
 

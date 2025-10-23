@@ -12,6 +12,8 @@
 
 ![Скриншот интерфейса ToDo List FastAPI](https://raw.githubusercontent.com/DenisPythoneer/ToDoList-FastAPI/main/image/screenshotOne.png)
 
+#
+
 # Описание  ☕
 
 Это простое, но функциональное веб-приложение для управления списком задач, разработанное с использованием:

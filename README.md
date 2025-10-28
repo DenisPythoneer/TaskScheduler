@@ -74,6 +74,8 @@
 
     AJAX-запросы к API
 
+#
+
 ![Скриншот документации FastAPI](https://raw.githubusercontent.com/DenisPythoneer/ToDoList-FastAPI/main/image/screenshotTwo.png)
 
 ---

@@ -117,4 +117,3 @@ Frontend:
 ---
 
 ### 🔗 Ссылка на автора: https://github.com/DenisPythoneer
-#

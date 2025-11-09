@@ -88,7 +88,7 @@
 
     git https://github.com/DenisPythoneer/TaskScheduler.git
     
-    cd TaskManager
+    cd TaskScheduler
 
 **Создать и активировать виртуальное окружение:**
 
